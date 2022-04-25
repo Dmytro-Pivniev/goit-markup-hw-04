@@ -55,6 +55,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  outline: 1px solid red;
 }
 
 .visually-hidden {
@@ -143,7 +144,8 @@ img {
   color: var(--accent-color);
 }
 
-.header-email-first {
+.header-email-first,
+.header-email-second {
   margin-right: 50px;
 }
 
@@ -162,12 +164,10 @@ img {
   padding-bottom: 32px;
 }
 
-.email-first-icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.tel-first-icon {
+.email-first-icon,
+.tel-first-icon,
+.email-second-icon,
+.tel-second-icon {
   margin-right: 10px;
   fill: currentColor;
 }
