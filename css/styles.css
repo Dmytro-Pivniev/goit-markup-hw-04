@@ -162,12 +162,28 @@ img {
   padding-bottom: 32px;
 }
 
+.email-first-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.tel-first-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /*----------------------------------Hero----------------------------*/
 
 .hero {
   background-color: var(--secondary-background-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -335,7 +351,54 @@ img {
   margin-bottom: 30px;
 }
 
-/*--------------------------------Footer----------------------------*/
+.command-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.command-soc-item + .command-soc-item {
+  margin-left: 10px;
+}
+
+.command-soc-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-white-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.command-soc-link:hover,
+.command-soc-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
+/*--------------------------------Regular customers---------------------*/
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+
+  margin-bottom: 50px;
+}
+
+.customers-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+/*--------------------------------Footer--------------------------------*/
 
 .footer {
   background-color: var(--secondary-background-color);
