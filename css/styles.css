@@ -452,6 +452,7 @@ img {
 
 .footer {
   background-color: var(--secondary-background-color);
+
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -515,6 +516,44 @@ img {
 .footer-tel .link:focus {
   background-color: var(--secondary-background-color);
   color: var(--accent-color);
+}
+
+.join-title {
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+.join-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.join-image:not(:last-child) {
+  margin-right: 10px;
+}
+
+.join-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--primary-white-color);
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
 }
 
 /*--------------------------Стили для portfolio.html----------------*/
@@ -582,8 +621,14 @@ img {
 
 .progect-img-item {
   background: var(--primary-white-color);
+
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.progect-img-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .progect-title-text {
