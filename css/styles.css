@@ -55,7 +55,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 
 .visually-hidden {
@@ -457,6 +456,15 @@ img {
   padding-bottom: 60px;
 }
 
+.footer .container {
+  display: flex;
+}
+
+.bottom-adress {
+  display: flex;
+  flex-direction: column;
+}
+
 .bottom-logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -465,6 +473,8 @@ img {
   line-height: 1.12;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+
+  margin-right: 156px;
 }
 
 .footer-logo {
@@ -518,13 +528,17 @@ img {
   color: var(--accent-color);
 }
 
-.join-title {
+.join {
   display: flex;
+  flex-direction: column;
+}
+
+.join-title {
   font-size: 14px;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  justify-content: center;
 
   margin-bottom: 20px;
 }
@@ -532,7 +546,6 @@ img {
 .join-list {
   display: flex;
   list-style: none;
-  justify-content: center;
 }
 
 .join-image:not(:last-child) {
