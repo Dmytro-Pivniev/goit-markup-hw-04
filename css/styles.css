@@ -462,11 +462,6 @@ img {
   align-items: baseline;
 }
 
-.bottom-adress {
-  display: flex;
-  flex-direction: column;
-}
-
 .bottom-logo {
   font-family: 'Raleway';
   font-style: normal;
